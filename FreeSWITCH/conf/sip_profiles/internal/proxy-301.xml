@@ -1,0 +1,15 @@
+﻿<include>
+   <gateway name="proxy-301">
+     <param name="proxy" value="192.168.102.101:5070"/>
+     <param name="register" value="false"/>
+      <param name="context" value="public"/>
+        <param name="caller-id-in-from" value="true"/>
+     <param name="username" value="0428333114"/>
+     <param name="password" value="not-used"/>
+     <param name="register-transport" value="udp"/>
+     <param name="retry-seconds" value="30"/>
+	 <param name="ping" value="60" />
+ 
+	 
+   </gateway>
+</include>
