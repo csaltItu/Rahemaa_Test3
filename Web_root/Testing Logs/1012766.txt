@@ -1,0 +1,85 @@
+%%$$~UnAssigned~0~Sat_2017-04-29_14-07-14~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/getCallTableCutoff.php?days=5, is returning: 0
+%%$$~UnAssigned~0~Sat_2017-04-29_14-07-14~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/getReqTableCutoff.php?days=5, is returning: 0
+%%$$~UnAssigned~0~Sat_2017-04-29_14-07-14~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/keyToPh.php?key=142566, is returning: 03216818631
+%%$$~UnAssigned~0~Sat_2017-04-29_14-07-14~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/CountryCode.php?ph=03216818631, is returning: 32 - Belgium
+%%$$~UnAssigned~0~Sat_2017-04-29_14-07-14~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/search_phno.php?ph=142566&app=PollyGame&cutoff=0, is returning: 25
+%%$$~UnAssigned~0~Sat_2017-04-29_14-07-14~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/GetPreferredLangs.php?id=381071, is returning: Urdu,Urdu
+%%$$~UnAssigned~0~Sat_2017-04-29_14-07-14~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/keyToPh.php?key=142566, is returning: 03216818631
+%%$$~UnAssigned~0~Sat_2017-04-29_14-07-14~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/New_Call.php?reqid=381071&phno=142566&calltype=Call-me-back&status=InProgress&ch=WateenE1, is returning: 1012766
+%%$$~1012766~0~Sat_2017-04-29_14-07-14~L1:::~App: PollyGame, Call Type: Call-me-back, Phone Number: 142566, Originating Request ID: 381071, Call ID: 1012766, Country: PK, ouserid: 03216818631, Age: 25, EHLAge: 0, Country Code: 32
+%%$$~1012766~0~Sat_2017-04-29_14-07-14~L0:::~Call Table cutoff found at:0
+%%$$~1012766~0~Sat_2017-04-29_14-07-14~L0:::~Req Table cutoff found at:0
+%%$$~1012766~0~Sat_2017-04-29_14-07-14~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1500.wav D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1500.wav
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L0:::~PGame prompts directory set to: D:/xampp/htdocs/wa/prompts/Urdu/Polly/
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L0:::~PHealth prompts directory set to: D:/xampp/htdocs/wa/prompts/Urdu/EHL/
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L1:::~Now attempting to call:
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L1:::~Calling via WateenE1.
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L1:::~Dialling .
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L0:::~Starting Call Recording
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=1012766&status=InProgress, is returning: Early Return.
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Request_Status.php?reqid=381071&status=fulfilled&ch=WateenE1, is returning: Early Return.
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L2:::~Call Answered.
+%%$$~1012766~0~Sat_2017-04-29_14-07-17~L0:::~pauseHere is called with param: TRUE
+%%$$~1012766~0~Sat_2017-04-29_14-07-18~L2:::~Inside PollyGameAnswerCall(). Calltype: Call-me-back
+%%$$~1012766~0~Sat_2017-04-29_14-07-18~L0:::~Starting Call Recording
+%%$$~1012766~0~Sat_2017-04-29_14-07-18~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=1012766&status=InProgress, is returning: Early Return.
+%%$$~1012766~0~Sat_2017-04-29_14-07-18~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Request_Status.php?reqid=381071&status=fulfilled&ch=WateenE1, is returning: Early Return.
+%%$$~1012766~0~Sat_2017-04-29_14-07-18~L2:::~Call Answered.
+%%$$~1012766~0~Sat_2017-04-29_14-07-18~L2:::~Playing Greetings
+%%$$~1012766~0~Sat_2017-04-29_14-07-18~L2:::~About to listen to PGame Greetings.
+%%$$~1012766~0~Sat_2017-04-29_14-07-18~L1:::~SA_Menu entered.
+%%$$~1012766~0~Sat_2017-04-29_14-07-18~L2:::~sayInt about to play: D:/xampp/htdocs/wa/SunoAbbu/Prompts/Test3mainprompt1.wav
+%%$$~1012766~0~Sat_2017-04-29_14-07-28~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~1012766~0~Sat_2017-04-29_14-07-28~L2:::~gatherInput was called with prompt: D:/xampp/htdocs/wa/SunoAbbu/Prompts/Test3mainprompt2.wav D:/xampp/htdocs/wa/SunoAbbu/Prompts/wapis_janay_kay_liye.wav and parameters: [1 DIGITS], dtmf, , 2, 10, keysbadChoiceFCN, ReMkeystimeOutFCN,
+%%$$~1012766~0~Sat_2017-04-29_14-07-46~L2:::~gatherTnputFreeSwitch complete. Now returning: value: 3, name: choice
+%%$$~1012766~0~Sat_2017-04-29_14-07-46~L1:::~SA_Play entered.
+%%$$~1012766~0~Sat_2017-04-29_14-07-46~L1:::~SA_GetFile entered.
+%%$$~1012766~0~Sat_2017-04-29_14-07-46~L0:::~doCurl called with url: http://127.0.0.1/wa/SunoAbbu/Scripts/get_file_id.php?uid=142566&type=Story&call_id=1012766, is returning: {\"result\":{\"error\":false,\"files\":[{\"file_id\":\"1\",\"name\":\"Story1.wav\",\"info\":\"Story1-1.wav\",\"tip\":\"Story1tip.wav\"},{\"file_id\":\"2\",\"name\":\"Story2.wav\",\"info\":\"Story2-1.wav\",\"tip\":\"Story2tip.wav\"},{\"file_id\":\"3\",\"name\":\"Story3.wav\",\"info\":\"Story3-1.wav\",\"tip\":\"Story3tip.wav\"},{\"file_id\":\"4\",\"name\":\"Story4.wav\",\"info\":\"Story4-1.wav\",\"tip\":\"Story4tip.wav\"},{\"file_id\":\"5\",\"name\":\"Story5.wav\",\"info\":\"Story5-1.wav\",\"tip\":\"Story5tip.wav\"},{\"file_id\":\"6\",\"name\":\"Story6.wav\",\"info\":\"Story6-1.wav\",\"tip\":\"Story6tip.wav\"},{\"file_id\":\"7\",\"name\":\"Story7.wav\",\"info\":\"Story7-1.wav\",\"tip\":\"Story7tip.wav\"},{\"file_id\":\"8\",\"name\":\"Story8.wav\",\"info\":\"Story8-1.wav\",\"tip\":\"Story8tip.wav\"},{\"file_id\":\"9\",\"name\":\"Story9.wav\",\"info\":\"Story9-1.wav\",\"tip\":\"Story9tip.wav\"},{\"file_id\":\"10\",\"name\":\"Story10.wav\",\"info\":\"Story10-1.wav\",\"tip\":\"Story10tip.wav\"}]}}
+%%$$~1012766~0~Sat_2017-04-29_14-07-46~L1:::~SA_GetFile JSON received: {\"result\":{\"error\":false,\"files\":[{\"file_id\":\"1\",\"name\":\"Story1.wav\",\"info\":\"Story1-1.wav\",\"tip\":\"Story1tip.wav\"},{\"file_id\":\"2\",\"name\":\"Story2.wav\",\"info\":\"Story2-1.wav\",\"tip\":\"Story2tip.wav\"},{\"file_id\":\"3\",\"name\":\"Story3.wav\",\"info\":\"Story3-1.wav\",\"tip\":\"Story3tip.wav\"},{\"file_id\":\"4\",\"name\":\"Story4.wav\",\"info\":\"Story4-1.wav\",\"tip\":\"Story4tip.wav\"},{\"file_id\":\"5\",\"name\":\"Story5.wav\",\"info\":\"Story5-1.wav\",\"tip\":\"Story5tip.wav\"},{\"file_id\":\"6\",\"name\":\"Story6.wav\",\"info\":\"Story6-1.wav\",\"tip\":\"Story6tip.wav\"},{\"file_id\":\"7\",\"name\":\"Story7.wav\",\"info\":\"Story7-1.wav\",\"tip\":\"Story7tip.wav\"},{\"file_id\":\"8\",\"name\":\"Story8.wav\",\"info\":\"Story8-1.wav\",\"tip\":\"Story8tip.wav\"},{\"file_id\":\"9\",\"name\":\"Story9.wav\",\"info\":\"Story9-1.wav\",\"tip\":\"Story9tip.wav\"},{\"file_id\":\"10\",\"name\":\"Story10.wav\",\"info\":\"Story10-1.wav\",\"tip\":\"Story10tip.wav\"}]}}
+%%$$~1012766~0~Sat_2017-04-29_14-07-46~L1:::~SA_GetFile returning.
+%%$$~1012766~0~Sat_2017-04-29_14-07-46~L2:::~sayInt about to play: D:/xampp/htdocs/wa/SunoAbbu/Prompts/Storyintro.wav
+%%$$~1012766~0~Sat_2017-04-29_14-07-52~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~1012766~0~Sat_2017-04-29_14-07-52~L2:::~sayInt about to play: D:/xampp/htdocs/wa/SunoAbbu/Prompts/Storydisclaimer1.wav
+%%$$~1012766~0~Sat_2017-04-29_14-07-58~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~1012766~0~Sat_2017-04-29_14-07-58~L2:::~sayInt about to play: D:/xampp/htdocs/wa/SunoAbbu/Recs/Story1.wav
+%%$$~1012766~0~Sat_2017-04-29_14-09-15~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~1012766~0~Sat_2017-04-29_14-09-15~L1:::~SA_CaptureEvent entered.
+%%$$~1012766~0~Sat_2017-04-29_14-09-15~L0:::~doCurl called with url: http://127.0.0.1/wa/SunoAbbu/Scripts/set_call.php?uid=142566&f_id=1&call_id=1012766&action_id=3, is returning: {\"result\":{\"error\":false,\"id\":2396,\"message\":\"Call Info Added\"}}
+%%$$~1012766~0~Sat_2017-04-29_14-09-15~L1:::~SA_CaptureEvent JSON received: {\"result\":{\"error\":false,\"id\":2396,\"message\":\"Call Info Added\"}}
+%%$$~1012766~0~Sat_2017-04-29_14-09-15~L1:::~SA_CaptureEvent returning.
+%%$$~1012766~0~Sat_2017-04-29_14-09-15~L2:::~gatherInput was called with prompt: D:/xampp/htdocs/wa/SunoAbbu/Prompts/Storyoptions1.wav and parameters: [1 DIGITS], dtmf, , 2, 10, keysbadChoiceFCN, ReMkeystimeOutFCN,
+%%$$~1012766~0~Sat_2017-04-29_14-09-30~L2:::~gatherTnputFreeSwitch complete. Now returning: value: 4, name: choice
+%%$$~1012766~0~Sat_2017-04-29_14-09-30~L1:::~SA_ListenToComments entered.
+%%$$~1012766~0~Sat_2017-04-29_14-09-30~L1:::~SA_GetComments entered.
+%%$$~1012766~0~Sat_2017-04-29_14-09-30~L0:::~doCurl called with url: http://127.0.0.1/wa/SunoAbbu/Scripts/get_comments.php?story_id=1, is returning: {\"result\":{\"error\":false,\"comments\":[\"5\",\"8\"],\"len\":2}}
+%%$$~1012766~0~Sat_2017-04-29_14-09-30~L1:::~SA_GetComments JSON received: {\"result\":{\"error\":false,\"comments\":[\"5\",\"8\"],\"len\":2}}
+%%$$~1012766~0~Sat_2017-04-29_14-09-30~L1:::~SA_GetComments returning.
+%%$$~1012766~0~Sat_2017-04-29_14-09-30~L1:::~SA_GetComments returning, error=false.
+%%$$~1012766~0~Sat_2017-04-29_14-09-30~L2:::~sayInt about to play: D:/xampp/htdocs/wa/SunoAbbu/Prompts/Comments.wav
+%%$$~1012766~0~Sat_2017-04-29_14-09-34~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~1012766~0~Sat_2017-04-29_14-09-34~L2:::~sayInt about to play: D:/xampp/htdocs/wa/SunoAbbu/Comments/5.wav
+%%$$~1012766~0~Sat_2017-04-29_14-09-34~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~1012766~0~Sat_2017-04-29_14-09-34~L2:::~gatherInput was called with prompt: D:/xampp/htdocs/wa/SunoAbbu/Prompts/Commentoptions.wav and parameters: [1 DIGITS], *, #, dtmf, 1, 3, 5, keysbadChoiceFCN, ReMkeystimeOutFCN,
+%%$$~1012766~0~Sat_2017-04-29_14-10-20~L2:::~gatherTnputFreeSwitch complete. Now returning: value: 1, name: choice
+%%$$~1012766~0~Sat_2017-04-29_14-10-20~L2:::~sayInt about to play: D:/xampp/htdocs/wa/SunoAbbu/Comments/5.wav
+%%$$~1012766~0~Sat_2017-04-29_14-10-20~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~1012766~0~Sat_2017-04-29_14-10-20~L2:::~gatherInput was called with prompt: D:/xampp/htdocs/wa/SunoAbbu/Prompts/Commentoptions.wav and parameters: [1 DIGITS], *, #, dtmf, 1, 3, 5, keysbadChoiceFCN, ReMkeystimeOutFCN,
+%%$$~1012766~0~Sat_2017-04-29_14-10-25~L2:::~gatherTnputFreeSwitch complete. Now returning: value: 1, name: choice
+%%$$~1012766~0~Sat_2017-04-29_14-10-25~L2:::~sayInt about to play: D:/xampp/htdocs/wa/SunoAbbu/Comments/5.wav
+%%$$~1012766~0~Sat_2017-04-29_14-10-25~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~1012766~0~Sat_2017-04-29_14-10-25~L2:::~gatherInput was called with prompt: D:/xampp/htdocs/wa/SunoAbbu/Prompts/Commentoptions.wav and parameters: [1 DIGITS], *, #, dtmf, 1, 3, 5, keysbadChoiceFCN, ReMkeystimeOutFCN,
+%%$$~1012766~0~Sat_2017-04-29_14-10-36~L2:::~gatherTnputFreeSwitch complete. Now returning: value: 4, name: choice
+%%$$~1012766~0~Sat_2017-04-29_14-10-36~L1:::~SA_ListenToComments returning.
+%%$$~1012766~0~Sat_2017-04-29_14-10-36~L2:::~sayInt about to play: D:/xampp/htdocs/wa/SunoAbbu/Recs/Story1.wav
+%%$$~1012766~0~Sat_2017-04-29_14-10-40~L1:::~Is the current call active? false. Hanging up if the call is not active.
+%%$$~1012766~0~Sat_2017-04-29_14-10-40~L2:::~Prehangup was called.
+%%$$~1012766~0~Sat_2017-04-29_14-10-40~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Waiting_DLV_Reqs.php?rcallid=1012766, is returning: Early Return.
+%%$$~1012766~0~Sat_2017-04-29_14-10-40~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=1012766&status=Answered, is returning: Early Return.
+%%$$~1012766~0~Sat_2017-04-29_14-10-40~L0:::~calledID:
+-ERR no reply
+, SessionID: 9a0a9d1a-1f6e-400a-97c0-acf420553ca2
+%%$$~1012766~0~Sat_2017-04-29_14-10-40~L2:::~Hanging Up. Call ended for callid: 1012766
+%%$$~1012766~0~Sat_2017-04-29_14-10-40~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Endtime.php?callid=1012766, is returning: 0
+%%$$~1012766~0~Sat_2017-04-29_14-10-40~L0:::~sendLogs called.
+%%$$
